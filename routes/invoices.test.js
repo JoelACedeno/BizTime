@@ -1,5 +1,5 @@
 /** Tests for invoices */
-
+process.env.NODE_ENV = "test" //set test environment
 
 const request = require('supertest')
 

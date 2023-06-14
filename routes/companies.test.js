@@ -1,5 +1,5 @@
 /** Tests for companies */
-
+process.env.NODE_ENV = "test" //set test environment
 
 const request = require('supertest')
 
